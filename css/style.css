@@ -1,0 +1,163 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  font-weight: normal;
+  color: white;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(6, 6, 6, 1) 100%
+  );
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button,
+input {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 130rem;
+  margin: 0 auto;
+}
+
+.button {
+  border-radius: 5rem;
+  padding: 1rem 3rem;
+  color: white;
+}
+
+.header {
+  padding: 4rem 11rem 4rem 4rem;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 10;
+}
+
+.header-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-menu {
+  display: flex;
+  align-items: center;
+}
+
+.header-button {
+  margin-left: 55.3rem;
+}
+
+.logo-header {
+  display: block;
+  width: 4rem;
+  height: 4rem;
+}
+
+.header-nav a {
+  font-size: 1.6rem;
+}
+
+.header-nav a:not(:last-child) {
+  margin-right: 7.1rem;
+}
+
+.header-button {
+  font-size: 1.6rem;
+  background: linear-gradient(
+    94.26deg,
+    rgba(200, 154, 252, 1) 0%,
+    rgba(124, 106, 250, 1) 100%
+  );
+}
+
+.main-display {
+  padding-top: 27rem;
+}
+
+.main-display .container {
+  position: relative;
+  z-index: 3;
+}
+
+.main-display-header {
+  max-width: 76rem;
+  margin-bottom: 5rem;
+  font-size: 6.4rem;
+}
+
+.main-display-timer {
+  display: flex;
+  margin-bottom: 7.6rem;
+}
+
+.timer-item {
+  width: 10.2rem;
+  height: 11.2rem;
+  background-color: #121212;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.timer-item:not(:last-child) {
+  margin-right: 3rem;
+}
+.timer-count {
+  font-size: 3.6rem;
+}
+
+.timer-text {
+  font-size: 1.6rem;
+  opacity: 0.4;
+}
+
+.timer-button {
+  font-size: 1.6rem;
+  background: linear-gradient(
+    94.26deg,
+    rgba(200, 154, 252, 1) 0%,
+    rgba(124, 106, 250, 1) 100%
+  );
+}
+
+.main-display-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
