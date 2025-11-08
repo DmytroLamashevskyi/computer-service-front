@@ -19,7 +19,9 @@
             <a href="#">Work</a>
             <a href="#">Team</a>
           </nav>
-          <button type="button" class="button header-button">Request</button>
+          <button type="button" class="button header-button modal-button">
+            Request
+          </button>
         </div>
       </div>
     </header>
@@ -45,7 +47,7 @@
               <div class="timer-text">Seconds</div>
             </div>
           </div>
-          <button class="button timer-button">Request</button>
+          <button class="button timer-button modal-button">Request</button>
         </div>
         <div class="main-display-bg">
           <img src="img/main-screen__bgc.png" alt="Main screen Background" />
@@ -165,7 +167,9 @@
             <div class="assembly-description">
               We will contact you to clarify the details of your order.
             </div>
-            <button class="button assembly-button">Submit a request</button>
+            <button class="button assembly-button modal-button">
+              Submit a request
+            </button>
             <div class="socials">
               <div class="social-item">
                 <img src="img/youtube.png" alt="Youtube" />
@@ -180,7 +184,37 @@
           </div>
         </div>
       </section>
+
+      <form action="#" class="modal block-center">
+        <div class="modal-container">
+          <div class="modal-close">
+            <img src="img/cancel.svg" alt="Close form" />
+          </div>
+          <h3 class="modal-header">Request for PC assembly</h3>
+          <div class="modal-subhead">
+            We will contact you to discuss the details of your order.
+          </div>
+          <div class="modal-form">
+            <div class="modal-item">
+              <input type="text" class="modal-input" placeholder="Your name" />
+            </div>
+            <div class="modal-item">
+              <input
+                type="tel"
+                class="modal-input"
+                placeholder="Phone number"
+              />
+            </div>
+            <div class="modal-item">
+              <input type="email" class="modal-input" placeholder="E-mail" />
+            </div>
+          </div>
+          <button type="submit" class="button assembly-button">
+            Send a request
+          </button>
+        </div>
+      </form>
     </main>
-    <footer></footer>
+    <script src="js/main.js"></script>
   </body>
 </html>
